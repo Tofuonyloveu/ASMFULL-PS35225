@@ -25,7 +25,7 @@ header{
     .menu-logo{
         height: 70px;
         position: relative;
-        background: white;
+        background: whitesmoke;
     }
     .menu-logo .logo{
         position: absolute;
@@ -50,11 +50,55 @@ header{
         padding-right: 5px;
         font-size: large;
 }
-.banner{
-    width: 100%;
+.main-image {
+    position: relative;
+    background: url(/images/z4122407639650_54dd73dda4ed665f00cfcfd71d0f7652.jpg) no-repeat center;
+    background-size: cover;
+    height: 570px;
+    overflow: hidden;
 }
-.banner img{
-    max-width: 100%;
+
+.content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #fff;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.content h1 {
+    margin: 0;
+    font-size: 36px;
+}
+
+.content h1 span {
+    padding: 6px 14px;
+    display: inline-block;
+}
+
+.cen {
+    margin: 25px;
+    display: block;
+    font-size: 15px;
+    color: #D0D0D0;
+}
+
+.button {
+    color: #f1f1f1;
+    padding: 10px 24px;
+    background: black;
+    text-decoration: none;
+    border-radius: 12px;
+    transition: .6s;
+}
+
+.button:hover {
+    background: #0F6292;
+    transition: all 0.8s ease;
+    box-shadow: 0 0 15px rgb(75, 50, 50);
 }
 .heading{
     font-size: 25px;
@@ -90,6 +134,18 @@ header{
 }
 .tintuc .new-post img{
     width: 100%;
+}
+.tintuc .h3{
+    font-family: 'Poppins', sans-serif;
+}
+.tintuc a{
+    text-decoration: none;
+    color: black;
+    color: inherit;
+    transition: all 0.3s ease;
+}
+.tintuc a:hover{
+    color: #F48484;
 }
 .footer{
 	background-color: #24262b;

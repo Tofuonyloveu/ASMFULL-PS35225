@@ -91,6 +91,10 @@ header{
     .tintuc .new-post em{
         font-size: 12px;
     }
+    .tintuc p{
+        font-family: 'Poppins', sans-serif;
+        color:#9b9797;
+    }
     .footer{
         background-color: #24262b;
         padding: 70px 0;
